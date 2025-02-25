@@ -4,9 +4,6 @@
 📧 [abhishek.hanchate@tamu.edu](mailto:abhishek.hanchate@tamu.edu)  
 🔗 [LinkedIn](https://www.linkedin.com/in/abhishekhanchate/) | [Google Scholar](https://scholar.google.com/citations?user=TtxXRU0AAAAJ)  
 
-> *“The future of manufacturing lies in the seamless integration of data, AI, and human ingenuity.”*  
-> **Recognized as SME’s 30 Under 30**, I drive innovation in AI-driven smart manufacturing. With experience in both industry and research, I specialize in integrating IIoT sensors, advanced sensing schemes, and cybersecurity to transform traditional manufacturing systems into intelligent and secure platforms.
-
 ---
 
 ## 🚀 Research Interests
