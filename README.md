@@ -1,4 +1,3 @@
-# Abhishek Hanchate
 
 📍 **101 Bizzell St., College Station, Texas - 77843**  
 📧 [abhishek.hanchate@tamu.edu](mailto:abhishek.hanchate@tamu.edu)  
