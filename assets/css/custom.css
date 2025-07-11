@@ -1,4 +1,28 @@
-.experience-block{display:flex;align-items:flex-start;margin:1.5rem 0}
-.experience-block img{width:80px;min-width:80px;margin-right:1rem;border-radius:4px}
-.experience-block h3{margin:0}
-.experience-block .date{font-style:italic;font-weight:400}
+/* /assets/css/custom.css  ← append or replace the old block */
+.experience-block{
+  display:flex;
+  align-items:flex-start;      /* logo + text share one line               */
+  gap:1.25rem;                 /* space between logo and text              */
+  margin:2rem 0;               /* vertical breathing room                  */
+}
+
+.experience-block img{
+  width:90px;                  /* keep all logos same visual weight        */
+  height:auto;
+  object-fit:contain;          /* never stretch                            */
+  flex-shrink:0;               /* don’t let the logo squish on narrow view */
+}
+
+.experience-block h3{
+  margin:0 0 .4rem 0;          /* tighten heading/title spacing            */
+  font-size:1.15rem;
+}
+
+.experience-block .date{
+  font-style:italic;
+  font-weight:400;
+}
+
+.experience-block ul{
+  margin:.25rem 0 0 1.1rem;    /* pull bullets closer to the heading       */
+}
