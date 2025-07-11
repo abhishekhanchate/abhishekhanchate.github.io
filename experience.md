@@ -1,3 +1,4 @@
+<!-- experience.md -->
 ---
 layout: page
 title: "Work & Research Experience"
@@ -25,43 +26,4 @@ permalink: /experience/
   </div>
 </div>
 
-<div class="experience-block">
-  <img src="/assets/logos/crider.png" alt="Crider Foods logo">
-  <div>
-    <h3>Research Associate — Crider Foods <span class="date">(Aug 2023 – present)</span></h3>
-    <ul>
-      <li>Sensorized a high-speed can-seaming process and deployed ML models for defect prediction.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="experience-block">
-  <img src="/assets/logos/mit.png" alt="MIT logo">
-  <div>
-    <h3>Founder — AlignAI <span class="date">(Jun 2023 – present)</span></h3>
-    <ul>
-      <li>Developing <strong>FusionPro</strong>, an end-to-end multimodal data-fusion platform (10 μs temporal alignment).</li>
-    </ul>
-  </div>
-</div>
-
-<div class="experience-block">
-  <img src="/assets/logos/tees.png" alt="TEES logo">
-  <div>
-    <h3>Graduate Researcher — TEES <span class="date">(Jun 2021 – present)</span></h3>
-    <ul>
-      <li>Developed privacy-preserving federated learning for a network of manufacturers.</li>
-      <li>Aligned & voxelized high-throughput data streams for 3D-printed surface analysis.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="experience-block">
-  <img src="/assets/logos/mit.png" alt="MIT logo">
-  <div>
-    <h3>Data Scientist — Texas A&M Aggies Football <span class="date">(Jul – Dec 2020)</span></h3>
-    <ul>
-      <li>Built a cross-platform analytics app; leveraged GPS & biomechanics data for performance KPIs.</li>
-    </ul>
-  </div>
-</div>
+<!-- …repeat for the other roles… -->
