@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Publications & Talks"
 permalink: /publications/
 ---
