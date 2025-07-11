@@ -1,6 +1,5 @@
 <!-- experience.md -->
 ---
-layout: page
 title: "Work & Research Experience"
 permalink: /experience/
 ---
