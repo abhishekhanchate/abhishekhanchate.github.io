@@ -1,18 +1,26 @@
 ---
-layout: page
-title: "About"
-permalink: /about/
+layout: default
+title: "Home"
+permalink: /
 ---
 
-## Bio
-Short paragraph like the one above, plus current Ph.D. status and research vision.
+# Abhi Hanchate  
+*Data-science Ph.D. · AI for Smart & Secure Manufacturing*
 
-## Education
-- **Ph.D. Industrial Engineering (Data Science & ML)**, Texas A&M — *2021–present*, GPA 3.7  
-- **M.S. Industrial Engineering**, Texas A&M — *2018–2020*, GPA 3.8  
-- Exchange @ **NTU Singapore** and B.Tech @ **COEP**, India
+> “The future of manufacturing lies in the seamless integration of data, AI, and human ingenuity.”
 
-## Skills
-**Languages:** Python (Numpy | Pandas | PyTorch | etc.), R, C/C++  
-**Tooling:** MATLAB, SQL, AWS, Tableau, Power BI, Gurobi, LaTeX  
-**Instruments:** SEM, optical microscopy, 3D profilometry, Siemens CNCs
+[Email](mailto:abhishek.hanchate@tamu.edu) | [LinkedIn](https://www.linkedin.com/in/abhishekhanchate/) | [Google Scholar](https://scholar.google.com/citations?user=TtxXRU0AAAAJ)
+
+---
+
+### Quick Highlights
+- **SME “30 Under 30” (2024)** awardee  
+- **Founder @ AlignAI** – FusionPro multimodal data-fusion platform  
+- **Data Scientist Intern @ American Airlines** (2024) – built in-house emotional-loyalty scoring  
+- **Research Associate @ Crider Foods** – Industry 4.0 can-seaming line  
+
+<div align="center">
+  <a class="btn" href="/experience/">Full Experience →</a>
+  &nbsp; &nbsp;
+  <a class="btn" href="/assets/Abhishek_Hanchate_CV.pdf">Download CV (PDF) ↓</a>
+</div>
