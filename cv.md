@@ -1,0 +1,9 @@
+---
+layout: page
+title: "CV"
+permalink: /cv/
+---
+
+You can download my complete CV here:
+
+[⬇️ **Abhishek Hanchate – Full CV (PDF)**](/assets/Abhishek_Hanchate_CV.pdf)
