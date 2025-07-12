@@ -97,22 +97,18 @@ nav a {
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
-  margin: 1.5rem 0;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.social-icons a {
-  text-decoration: none;
-}
-
-.icon {
+.social-icons svg {
   width: 26px;
   height: 26px;
   fill: #007acc;
-  transition: fill 0.2s ease;
+  transition: fill 0.2s ease-in-out;
 }
 
-.icon:hover {
+.social-icons svg:hover {
   fill: #005fa3;
 }
-
