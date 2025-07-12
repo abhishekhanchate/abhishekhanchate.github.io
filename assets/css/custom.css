@@ -1,48 +1,7 @@
-/* /assets/css/custom.css */
+/* ---------- Global Background & Animation ---------- */
 body {
-  background-color: hotpink !important;
-}
-
-/* ---------- Experience Block ---------- */
-.experience-block {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.25rem;
-  margin: 2rem 0;
-}
-
-.experience-block img {
-  width: 90px;
-  height: auto;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-.experience-block h3 {
-  margin: 0 0 0.4rem 0;
-  font-size: 1.15rem;
-}
-
-.experience-block .date {
-  font-style: italic;
-  font-weight: 400;
-}
-
-.experience-block ul {
-  margin: 0.25rem 0 0 1.1rem;
-}
-
-/* ---------- Global Styles ---------- */
-body {
-  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  margin: 0 auto;
-  max-width: 900px;
-  padding: 2rem;
-
-  /* NEW background */
+  margin: 0;
+  padding: 0;
   background: linear-gradient(-45deg, #f0f4ff, #fffdfd, #f9f9f9, #eef3fb);
   background-size: 400% 400%;
   animation: gradientBG 20s ease infinite;
@@ -54,12 +13,28 @@ body {
   100% { background-position: 0% 50%; }
 }
 
+/* ---------- Main Container Box ---------- */
+.container {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* ---------- Headings ---------- */
 h1, h2, h3 {
   color: #222;
   font-weight: 600;
   margin-top: 1.5em;
 }
 
+/* ---------- Links ---------- */
 a {
   color: #007acc;
   text-decoration: none;
@@ -68,16 +43,19 @@ a:hover {
   text-decoration: underline;
 }
 
+/* ---------- Lists ---------- */
 ul {
   padding-left: 1.25rem;
 }
 
+/* ---------- HR ---------- */
 hr {
   border: 0;
   border-top: 1px solid #ccc;
   margin: 2rem 0;
 }
 
+/* ---------- Date ---------- */
 .date {
   color: #777;
   font-size: 0.9rem;
@@ -88,7 +66,6 @@ nav {
   text-align: center;
   margin-bottom: 2rem;
 }
-
 nav a {
   margin: 0 12px;
   font-weight: 500;
@@ -117,23 +94,17 @@ nav a {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-
 .social-icons svg {
   width: 26px;
   height: 26px;
+  fill: #007acc;
   transition: fill 0.2s ease-in-out;
 }
-
-/* Branded Colors */
-.social-icons .email:hover     svg { fill: #D44638; } /* Gmail red */
-.social-icons .linkedin:hover  svg { fill: #0A66C2; } /* LinkedIn blue */
-.social-icons .scholar:hover   svg { fill: #4285F4; } /* Google Scholar blue */
-.social-icons .orcid:hover     svg { fill: #A6CE39; } /* ORCID green */
-.social-icons .github:hover    svg { fill: #171515; } /* GitHub black */
-
-.social-icons svg {
-  fill: #007acc;
-}
+.social-icons .email:hover     svg { fill: #D44638; } /* Gmail */
+.social-icons .linkedin:hover  svg { fill: #0A66C2; } /* LinkedIn */
+.social-icons .scholar:hover   svg { fill: #4285F4; } /* Google Scholar */
+.social-icons .orcid:hover     svg { fill: #A6CE39; } /* ORCID */
+.social-icons .github:hover    svg { fill: #171515; } /* GitHub */
 
 /* ---------- Tables ---------- */
 table {
@@ -142,19 +113,38 @@ table {
   margin: 1.5rem 0;
   font-size: 0.95rem;
 }
-
 table th, table td {
   padding: 0.6rem;
   border-bottom: 1px solid #ccc;
   text-align: left;
   vertical-align: top;
 }
-
 table th {
   background-color: #f8f8f8;
   font-weight: bold;
 }
 
-body {
-  background-color: hotpink !important;
+/* ---------- Experience Block ---------- */
+.experience-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+.experience-block img {
+  width: 90px;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.experience-block h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.15rem;
+}
+.experience-block .date {
+  font-style: italic;
+  font-weight: 400;
+}
+.experience-block ul {
+  margin: 0.25rem 0 0 1.1rem;
 }
