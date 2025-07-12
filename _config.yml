@@ -1,6 +1,14 @@
 title: "Abhi Hanchate"
+logo: /assets/headshot.png
+description: >
+  <p style="font-size: 14px; line-height: 1.5;">
+    <h4 style="font-size: 16px;">🎯 "The future of manufacturing lies in the seamless integration of data, AI, and human ingenuity."</h4>
+    <strong>– and I’m dedicated to making that future a reality.</strong><br>
+    Recognized as one of <strong>“SME’s 30 Under 30”</strong>, I drive innovation in AI-driven smart manufacturing.
+    With experience across <strong>industry and research collaborations</strong>, I transform traditional machinery into 
+    secure, intelligent systems by integrating IIoT sensors, advanced sensing schemes, and manufacturing cybersecurity.
+  </p>
 theme: jekyll-theme-minimal
-description: "AI-driven smart manufacturing & cybersecurity researcher"
 header_pages:        
   - about.md
   - research.md
