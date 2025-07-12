@@ -19,7 +19,7 @@ permalink: /
 - **Research Associate @ Crider Foods** – Industry 4.0 can-seaming line  
 
 <div align="center">
-  <a class="btn" href="/experience/">Full Experience →</a>
+  <a class="btn" href="/experience.html">Full Experience →</a>
   &nbsp; &nbsp;
   <a class="btn" href="/assets/Abhishek_Hanchate_CV.pdf">Download CV (PDF) ↓</a>
 </div>
