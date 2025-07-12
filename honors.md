@@ -1,6 +1,6 @@
 ---
 title: "Honors & Leadership"
-permalink: /honors/
+permalink: /honors.html
 ---
 
 ### Awards
