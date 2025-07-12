@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Honors & Leadership"
 permalink: /honors.html
 ---
