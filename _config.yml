@@ -8,7 +8,7 @@ description: >
     With experience across <strong>industry and research collaborations</strong>, I transform traditional machinery into 
     secure, intelligent systems by integrating IIoT sensors, advanced sensing schemes, and manufacturing cybersecurity.
   </p>
-theme: jekyll-theme-minimal
+theme: null
 header_pages:        
   - about.md
   - research.md
