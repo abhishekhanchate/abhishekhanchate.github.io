@@ -2,7 +2,7 @@ title: "Abhi Hanchate"
 theme: jekyll-theme-minimal
 description: "AI-driven smart manufacturing & cybersecurity researcher"
 header_pages:        
-  - about.html
+  - about.md
   - research.md
   - experience.md
   - publications.md
