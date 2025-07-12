@@ -1,7 +1,7 @@
 <!-- experience.md -->
 ---
 title: "Work & Research Experience"
-permalink: /experience/
+permalink: /experience.html
 ---
 
 <div class="experience-block">
