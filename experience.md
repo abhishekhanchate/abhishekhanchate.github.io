@@ -1,8 +1,7 @@
-<!-- experience.md -->
 ---
 title: "Work & Research Experience"
 permalink: /experience.html
-layout: page
+layout: default
 ---
 
 <div class="experience-block">
