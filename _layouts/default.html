@@ -7,6 +7,12 @@
     {% include head-custom.html %}
   </head>
   <body>
+    {% if site.logo %}
+      <div style="text-align: center;">
+        <img src="{{ site.logo }}" alt="Profile photo" style="width: 120px; border-radius: 50%; margin-bottom: 1rem;">
+      </div>
+    {% endif %}
+  
     <header>
       <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
       <p>{{ site.description }}</p>
