@@ -1,6 +1,7 @@
 ---
+layout: page
 title: "CV"
-permalink: /cv/
+permalink: /cv.html
 ---
 
 You can download my complete CV here:
