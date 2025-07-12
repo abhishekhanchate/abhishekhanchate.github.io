@@ -1,7 +1,7 @@
 ---
+layout: default
 title: "Work & Research Experience"
 permalink: /experience.html
-layout: default
 ---
 
 <div class="experience-block">
