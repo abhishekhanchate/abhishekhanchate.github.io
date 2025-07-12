@@ -5,48 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }} | {{ site.title }}</title>
 
-    <!-- Link to your custom CSS with cache busting -->
+    <!-- Cache-busting CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
     {% include head-custom.html %}
   </head>
 
   <body>
-    <!-- Profile Image -->
-    {% if site.logo %}
-      <div style="text-align: center;">
-        <img src="{{ site.logo }}" alt="Profile photo" style="width: 120px; border-radius: 50%; margin-bottom: 1rem;">
-      </div>
-    {% endif %}
+    <div class="container">
 
-    <!-- Header Title & Tagline -->
-    <header>
-      <h1 style="text-align: center;">
-        <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
-      </h1>
-      <p style="text-align: center;">{{ site.description }}</p>
-    </header>
+      {% if site.logo %}
+        <div style="text-align: center;">
+          <img src="{{ site.logo }}" alt="Profile photo" style="width: 120px; border-radius: 50%; margin-bottom: 1rem;">
+        </div>
+      {% endif %}
 
-    <!-- Navigation -->
-    <nav>
-      {% for page in site.pages %}
-        {% if page.title %}
-          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
-    </nav>
+      <header>
+        <h1 style="text-align: center;">
+          <a href="{{ "/" | relative_url }}">{{ site.title }}</a>
+        </h1>
+        <p style="text-align: center;">{{ site.description }}</p>
+      </header>
 
-    <!-- Main Content -->
-    <main>
-      {{ content }}
-    </main>
+      <nav>
+        {% for page in site.pages %}
+          {% if page.title %}
+            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
 
-    <!-- Footer -->
-    <footer>
-      <hr>
-      <p style="text-align:center; font-size: 0.9rem;">
-        © {{ site.time | date: '%Y' }} {{ site.title }}
-      </p>
-    </footer>
+      <main>
+        {{ content }}
+      </main>
+
+      <footer>
+        <hr>
+        <p style="text-align:center; font-size: 0.9rem;">
+          © {{ site.time | date: '%Y' }} {{ site.title }}
+        </p>
+      </footer>
+
+    </div>
   </body>
 </html>
