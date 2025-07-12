@@ -4,17 +4,6 @@ title: "Home"
 permalink: /
 ---
 
-<div class="intro-flex">
-  <img src="{{ site.logo }}" alt="Profile photo" class="intro-headshot">
-
-  <div class="intro-text">
-    <p><span class="emoji">🎯</span> <strong>"The future of manufacturing lies in the seamless integration of data, AI, and human ingenuity."</strong></p>
-
-    <p><strong>– and I’m dedicated to making that future a reality.</strong><br>
-    {{ site.description }}</p>
-  </div>
-</div>
-
 [Email](mailto:abhishek.hanchate@tamu.edu) | [LinkedIn](https://www.linkedin.com/in/abhishekhanchate/) | [Google Scholar](https://scholar.google.com/citations?user=TtxXRU0AAAAJ)
 
 ---
