@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <meta charset="utf-8" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+    {% include head-custom.html %}
   </head>
   <body>
     <header>
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      {% if site.description %}
-        <p>{{ site.description }}</p>
-      {% endif %}
-
-      <nav>
-        <ul>
-          {% for page_path in site.header_pages %}
-            {% assign nav_page = site.pages | where: "path", page_path | first %}
-            {% if nav_page %}
-              <li><a href="{{ nav_page.url | relative_url }}">{{ nav_page.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </nav>
+      <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
     </header>
+
+    <nav>
+      {% for page in site.pages %}
+        {% if page.title %}
+          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
 
     <main>
       {{ content }}
@@ -31,7 +26,7 @@
 
     <footer>
       <hr>
-      <p style="text-align: center;">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+      <p style="text-align:center; font-size: 0.9rem;">© {{ site.time | date: '%Y' }} {{ site.title }}</p>
     </footer>
   </body>
 </html>
