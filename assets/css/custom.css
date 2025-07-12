@@ -26,3 +26,70 @@
 .experience-block ul{
   margin:.25rem 0 0 1.1rem;    /* pull bullets closer to the heading       */
 }
+
+/* ---------- Global Styles ---------- */
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 2rem;
+  background-color: #fdfdfd;
+}
+
+h1, h2, h3 {
+  color: #222;
+  font-weight: 600;
+  margin-top: 1.5em;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+}
+
+.date {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-block;
+  background-color: #007acc;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: #005a99;
+}
