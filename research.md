@@ -11,9 +11,10 @@ permalink: /research.html
 - Cyber-attack detection via Dynamic Watermarking
 
 ### Current Projects
-| Project | Role | Status |
-|---------|------|--------|
-| **FusionPro** – AlignAI | Founder | Alpha prototype, patent pending |
-| **Cannery 4.0** – Crider Foods | Research Associate | Smart can-seaming pilot line live |
-| **Dynamic Watermarking for MTCs** | Ph.D. research | 2 journal papers in prep |
-| **HiRA-Pro** multimodal alignment | Lead author | Under review @ ASME JCISE |
+| Project                             | Role             | Status                             |
+|-------------------------------------|------------------|-------------------------------------|
+| **FusionPro** – AlignAI             | Founder          | Alpha prototype, patent pending     |
+| **Cannery 4.0** – Crider Foods      | Research Associate | Smart can-seaming pilot line live  |
+| **Dynamic Watermarking for MTCs**   | Ph.D. Research   | 2 journal papers in prep            |
+| **HiRA-Pro** multimodal alignment   | Lead Author      | Under review @ ASME JCISE           |
+
