@@ -1,30 +1,32 @@
-/* /assets/css/custom.css  ← append or replace the old block */
-.experience-block{
-  display:flex;
-  align-items:flex-start;      /* logo + text share one line               */
-  gap:1.25rem;                 /* space between logo and text              */
-  margin:2rem 0;               /* vertical breathing room                  */
+/* /assets/css/custom.css */
+
+/* ---------- Experience Block ---------- */
+.experience-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin: 2rem 0;
 }
 
-.experience-block img{
-  width:90px;                  /* keep all logos same visual weight        */
-  height:auto;
-  object-fit:contain;          /* never stretch                            */
-  flex-shrink:0;               /* don’t let the logo squish on narrow view */
+.experience-block img {
+  width: 90px;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
-.experience-block h3{
-  margin:0 0 .4rem 0;          /* tighten heading/title spacing            */
-  font-size:1.15rem;
+.experience-block h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.15rem;
 }
 
-.experience-block .date{
-  font-style:italic;
-  font-weight:400;
+.experience-block .date {
+  font-style: italic;
+  font-weight: 400;
 }
 
-.experience-block ul{
-  margin:.25rem 0 0 1.1rem;    /* pull bullets closer to the heading       */
+.experience-block ul {
+  margin: 0.25rem 0 0 1.1rem;
 }
 
 /* ---------- Global Styles ---------- */
@@ -36,7 +38,17 @@ body {
   margin: 0 auto;
   max-width: 900px;
   padding: 2rem;
-  background-color: #fdfdfd;
+
+  /* NEW background */
+  background: linear-gradient(-45deg, #f0f4ff, #fffdfd, #f9f9f9, #eef3fb);
+  background-size: 400% 400%;
+  animation: gradientBG 20s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 h1, h2, h3 {
@@ -94,6 +106,7 @@ nav a {
   background-color: #005a99;
 }
 
+/* ---------- Social Icons ---------- */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -105,14 +118,21 @@ nav a {
 .social-icons svg {
   width: 26px;
   height: 26px;
-  fill: #007acc;
   transition: fill 0.2s ease-in-out;
 }
 
-.social-icons svg:hover {
-  fill: #005fa3;
+/* Branded Colors */
+.social-icons .email:hover     svg { fill: #D44638; } /* Gmail red */
+.social-icons .linkedin:hover  svg { fill: #0A66C2; } /* LinkedIn blue */
+.social-icons .scholar:hover   svg { fill: #4285F4; } /* Google Scholar blue */
+.social-icons .orcid:hover     svg { fill: #A6CE39; } /* ORCID green */
+.social-icons .github:hover    svg { fill: #171515; } /* GitHub black */
+
+.social-icons svg {
+  fill: #007acc;
 }
 
+/* ---------- Tables ---------- */
 table {
   width: 100%;
   border-collapse: collapse;
