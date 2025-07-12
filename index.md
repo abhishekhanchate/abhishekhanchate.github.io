@@ -4,11 +4,6 @@ title: "Home"
 permalink: /
 ---
 
-# Abhi Hanchate  
-*Data-science Ph.D. · AI for Smart & Secure Manufacturing*
-
-> “The future of manufacturing lies in the seamless integration of data, AI, and human ingenuity.”
-
 [Email](mailto:abhishek.hanchate@tamu.edu) | [LinkedIn](https://www.linkedin.com/in/abhishekhanchate/) | [Google Scholar](https://scholar.google.com/citations?user=TtxXRU0AAAAJ)
 
 ---
