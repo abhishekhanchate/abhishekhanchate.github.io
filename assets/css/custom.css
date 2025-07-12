@@ -93,3 +93,26 @@ nav a {
 .btn:hover {
   background-color: #005a99;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  fill: #007acc;
+  transition: fill 0.2s ease;
+}
+
+.icon:hover {
+  fill: #005fa3;
+}
+
