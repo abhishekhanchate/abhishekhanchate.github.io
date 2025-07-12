@@ -2,6 +2,7 @@
 ---
 title: "Work & Research Experience"
 permalink: /experience.html
+layout: page
 ---
 
 <div class="experience-block">
