@@ -112,3 +112,22 @@ nav a {
 .social-icons svg:hover {
   fill: #005fa3;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+table th, table td {
+  padding: 0.6rem;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  vertical-align: top;
+}
+
+table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
