@@ -11,10 +11,36 @@ permalink: /research.html
 - Cyber-attack detection via Dynamic Watermarking
 
 ### Current Projects
-| Project                             | Role             | Status                             |
-|-------------------------------------|------------------|-------------------------------------|
-| **FusionPro** – AlignAI             | Founder          | Alpha prototype, patent pending     |
-| **Cannery 4.0** – Crider Foods      | Research Associate | Smart can-seaming pilot line live  |
-| **Dynamic Watermarking for MTCs**   | Ph.D. Research   | 2 journal papers in prep            |
-| **HiRA-Pro** multimodal alignment   | Lead Author      | Under review @ ASME JCISE           |
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Role</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>FusionPro</strong> – AlignAI</td>
+      <td>Founder</td>
+      <td>Alpha prototype, patent pending</td>
+    </tr>
+    <tr>
+      <td><strong>Cannery 4.0</strong> – Crider Foods</td>
+      <td>Research Associate</td>
+      <td>Smart can-seaming pilot line live</td>
+    </tr>
+    <tr>
+      <td><strong>Dynamic Watermarking for MTCs</strong></td>
+      <td>Ph.D. Research</td>
+      <td>2 journal papers in prep</td>
+    </tr>
+    <tr>
+      <td><strong>HiRA-Pro</strong> multimodal alignment</td>
+      <td>Lead Author</td>
+      <td>Under review @ ASME JCISE</td>
+    </tr>
+  </tbody>
+</table>
+
 
