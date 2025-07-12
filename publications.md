@@ -1,6 +1,6 @@
 ---
 title: "Publications & Talks"
-permalink: /publications/
+permalink: /publications.html
 ---
 
 ### Journal Articles
