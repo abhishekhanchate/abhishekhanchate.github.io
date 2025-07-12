@@ -1,6 +1,6 @@
 ---
 title: "Teaching & Mentoring"
-permalink: /teaching/
+permalink: /teaching.html
 ---
 
 ### Teaching Experience
